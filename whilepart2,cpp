@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+    
+    int batasatas, batasbawah;
+    cout<<"masukan batas atas = ";cin>>batasatas;
+    cout<<"masukan batas bawah = ";cin>>batasbawah;
+    while (batasbawah++ <batasatas){
+        cout<<"data ke - "<<batasbawah<<endl;
+    }
+    if (batasbawah>batasatas){
+        cout<<"error"<<endl;
+    }
+    cout<<"note: batas atas tidak boleh kurang dari batas bawah"<<endl;
+    return 0;
+}
